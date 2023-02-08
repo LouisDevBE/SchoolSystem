@@ -1,9 +1,9 @@
 <?php
 
-$dbhost = "ID376192_schooll.db.webhosting.be";
-$dbuser = "ID376192_schooll";
-$dbpass = "Dijk4str";
-$dbname = "ID376192_schooll";
+$dbhost = "Host";
+$dbuser = "User";
+$dbpass = "Password";
+$dbname = "Database";
 
 if(!$con = mysqli_connect($dbhost,$dbuser,$dbpass,$dbname))
 {
